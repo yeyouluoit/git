@@ -37,3 +37,6 @@ git checkout -- file    ——  撤销修改（git checkout -- file命令中的-
 创建目录用mkdir    例如：mkdir daiyuanqi       
 删除空目录用rmdir  例如：rmdir daiyuanqi （有东西的目录不能删）       
 删除装有东西的目录就用rm -rf  例如rm -rf XXX
+
+git push origin master  ——  推送到远程git仓库
+【git仓库的一个优点】分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！
